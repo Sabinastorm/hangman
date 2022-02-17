@@ -2,7 +2,7 @@ import random
 from words import word_list
 
 def get_word():
-    word = random.choice()
+    word = random.choice(word_list)
     return word.upper()
 
 
@@ -55,6 +55,73 @@ def play(word):
         else:
             print("Sorry, you didn't guess the word this time. The word was " + word + ". Better luck next time!")
 
+def display_hangman(tries):
+    stages = [  """
+                    - - - - - - - -
+                    |             |
+                    |             O
+                    |            \ / 
+                    |             | 
+                    |            / \  
+
+                """,
+                """ 
+                    - - - - - - - - 
+                    |             |
+                    |             O
+                    |            \ / 
+                    |             | 
+                    |            / 
+
+                """,
+                """      
+
+                    - - - - - - - -
+                    |             |
+                    |             O
+                    |            \ / 
+                    |             | 
+                    |            
+
+                """,
+                """
+                    - - - - - - - -
+                    |             |
+                    |             O
+                    |            \ / 
+                    |             
+                    |             
+
+                """,
+                """
+                    - - - - - - - -
+                    |             |
+                    |             O
+                    |            \ 
+                    |             
+                    |              
+
+                """,
+                """
+                    - - - - - - - -
+                    |             |
+                    |             O
+                    |            
+                    |              
+                    |         
+
+                """,
+                """
+                    - - - - - - - -
+                    |             |
+                    |             
+                    |            
+                    |             
+                    |     
+               
+                """                           
+    ]
+    return stages[tries]
 
 
 
