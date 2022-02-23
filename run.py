@@ -1,6 +1,7 @@
 import random
 from words import word_list
 
+
 def get_word():
     word = random.choice(word_list)
     return word.upper()
@@ -54,6 +55,7 @@ def play(word):
         print("Congratulations, you guessed the word! You win!")
     else:
         print("Sorry, you didn't guess the word this time. The word was " + word + ". Better luck next time!")
+
 
 def display_hangman(tries):
     stages = [  """
@@ -125,12 +127,10 @@ def display_hangman(tries):
                     |             
                     |     
                     |
-                    
+
                 """                           
     ]
     return stages[tries]
-
-
 
 
 def main():
@@ -139,6 +139,7 @@ def main():
     while input("Play again? (Y/N) ").upper() == "Y":
         word = get_word()
         play(word)  
+
 
 if __name__== "__main__":
     main()
