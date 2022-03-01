@@ -4,5 +4,19 @@ word_list = [
     'mountain',
     'climb',
     'tooth',
-    
-]
+    'abruptly',
+    'awkward',
+    'razzmatazz',
+    'rhubarb',
+    'haphazard',
+    'syndrome',
+    'microwave',
+    'kiwifruit',
+    'jogging',
+    'puppy',
+    'zombie',
+    'zombie',
+    'yummy',
+    'galaxy',
+    'earth'
+]    
