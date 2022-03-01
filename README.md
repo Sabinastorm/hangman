@@ -1,11 +1,7 @@
-# QUIZ
-For my Milestone Project 2 on Code Institute's Diploma in Software Developement course I have created a quiz.
+# Hangman game
+For my Milestone Project 3 on Code Institute's Diploma in Software Developement course I have created a hangman game.
 
-For link to the website click [Here](https://sabinastorm.github.io/quiz/)
-
-Design has been focused to Responsive for big screen and tablets.
-
-![Image of responsive design](assets/images/Responsive-quiz.png)
+For link to the app click [Here](https://python--hangman.herokuapp.com/) 
 
 ## Who is this website for?
 
@@ -17,7 +13,7 @@ The owner of this game is Sabina Storm Björlestrand
 
 ## What does it do?
 
-The quiz has ten questions about general knowlege with two answer options for the user to choose from. Each correct answer gives one point.
+The quiz has 20 words that are chosen at random. The player can guess att a letter or word. The player has six guesses until it's game over.
 
 ## User experience
 
@@ -25,9 +21,9 @@ The quiz has ten questions about general knowlege with two answer options for th
 
 #### From customers perspective
 
-- As a user I want to navigate clearly and logically through the website
+- As a user I want to navigate clearly and logically through the game
 
-- As a user I want to know what to do next in the quiz
+- As a user I want to know what to do next in
 - As a user I want to have options
 - As a user I want to see my score
 - As a user I want to know the correct answer
@@ -161,12 +157,25 @@ Saving, commiting and pushing it to remote repository in terminal:
 
 ## Deployment
 
-To deploy the website, I followed the below steps on [GitHub](https://github.com/).
+To deploy the website, I followed the below steps on [Heroku](https://id.heroku.com/).
 
-- Go to "Settings" on the repository
-- On "Source" of "GitHub Pages", select "master for Branch and click save
-- Refresh page
-- The website is now published on GitHub Pages and the link is provided on on the same section
+- Create a new app
+- 
+- 
+- 
+## Creating the Heroku app
+
+When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+
+1. `heroku/python`
+2. `heroku/nodejs`
+
+You must then create a _Config Var_ called `PORT`. Set this to `8000`
+
+If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+
+Connect your GitHub repository and deploy as normal.
+
 
 Welcome Sabinastorm,
 
@@ -184,10 +193,3 @@ You must then create a _Config Var_ called `PORT`. Set this to `8000`
 If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
 Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
