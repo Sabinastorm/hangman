@@ -21,17 +21,15 @@ The qame has 20 words that are chosen at random. The player can guess att a lett
 
 #### From customers perspective
 
-- As a user I want to navigate clearly and logically through the game
-
-- As a user I want to know what to do next in
-- As a user I want to know the correct answer
-- As a user I want to be able to restart the game
+- As a user I want to know navigate easily in the game
+- As a user I want to know if myanswer was correct or not
+- As a user I want to be able to restart the game 
 
 #### Customers perspective fulfilment
 
-- The first question is visible at start 
+- The game guides the player from the beginning by telling the player to guess a word or a letter
 - The game tells the player if the guess is correct or not
-- At the end the player is asked if they would like to play again
+- At the end the player is asked if they would like to play again and is given the option to press Yes or No
 
 
 
