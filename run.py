@@ -1,3 +1,6 @@
+# code from youtube "How to build HANGMAN with Python in 10 MINUTES"
+
+
 import random
 from words import word_list
 

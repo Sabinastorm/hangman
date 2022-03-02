@@ -1,7 +1,9 @@
 # Hangman game
 For my Milestone Project 3 on Code Institute's Diploma in Software Developement course I have created a hangman game.
 
-For link to the app click [Here](https://python--hangman.herokuapp.com/) 
+[Here is the live version of my project](https://python--hangman.herokuapp.com/) 
+
+![image](assets/hangman.png)
 
 ## Who is this website for?
 
@@ -13,7 +15,7 @@ The owner of this game is Sabina Storm Björlestrand
 
 ## What does it do?
 
-The qame has 20 words that are chosen at random. The player can guess att a letter or a word. The player has six guesses until it's game over.
+The qame has 20 words that are chosen at random. The player can guess att a letter or a word. The player has six guesses until the man is hung and it's game over.
 
 ## User experience
 
@@ -30,7 +32,6 @@ The qame has 20 words that are chosen at random. The player can guess att a lett
 - The game guides the player from the beginning by telling the player to guess a word or a letter
 - The game tells the player if the guess is correct or not
 - At the end the player is asked if they would like to play again and is given the option to press Yes or No
-
 
 
 ## Features
