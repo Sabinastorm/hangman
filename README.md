@@ -68,7 +68,24 @@ Website has been tested in Google chrome and Safari
 
 ### Validators
 
-The website has been through PEP8online check and shows no errors.
+The website has been through PEP8online check with a few errors:
+
+
+Code	Line	Column	Text
+E111	44	16	indentation is not a multiple of four
+E111	45	16	indentation is not a multiple of four
+E111	46	16	indentation is not a multiple of four
+E111	48	16	indentation is not a multiple of four
+E111	49	16	indentation is not a multiple of four
+W291	54	20	trailing whitespace
+E201	63	15	whitespace after '['
+W291	67	37	trailing whitespace
+W291	68	36	trailing whitespace
+W291	69	37	trailing whitespace
+W291	73	4	trailing whitespace
+W292	147	11	no newline at end of file
+
+All the errors are now fixed.
 
 ### Local testing
 
